@@ -1,0 +1,14 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package model;
+
+public interface AbstractFactory {
+   static {
+      throw new Error("Unresolved compilation problems: \n\tProduitB cannot be resolved to a type\n\tProduitC cannot be resolved to a type\n");
+   }
+
+   ProduitA createProduitA();
+
+   ProduitB createProduitB();
+
+   ProduitC createProduitC();
+}

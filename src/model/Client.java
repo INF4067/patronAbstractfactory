@@ -3,7 +3,7 @@ package model;
 public class Client {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.out.println("............Patron: Abstract Factory..Avec Une ouvelle catégorie de produit........");
 		  
 		AbstractFactory factory1=new Factory1();
